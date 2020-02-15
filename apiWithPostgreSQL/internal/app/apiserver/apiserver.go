@@ -7,7 +7,9 @@ type APIServer struct{
 
 // New ...
 func New() *APIServer{
-	return &APIServer{};
+	return &APIServer{
+		config: config, 
+	}
 }
 
 // Start ...
