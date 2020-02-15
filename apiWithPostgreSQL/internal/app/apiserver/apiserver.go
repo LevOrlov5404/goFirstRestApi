@@ -1,7 +1,9 @@
 package apiserver
 
 // APIServer ...
-type APIServer struct{}
+type APIServer struct{
+	config *Config
+}
 
 // New ...
 func New() *APIServer{
